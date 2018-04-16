@@ -1,0 +1,16 @@
+PODS:
+  - CocoaFRP (0.0.1)
+
+DEPENDENCIES:
+  - CocoaFRP
+
+SPEC REPOS:
+  https://github.com/bloodspasm/Pods.git:
+    - CocoaFRP
+
+SPEC CHECKSUMS:
+  CocoaFRP: 6ec60be20e313202a1609163a1156a285475dda8
+
+PODFILE CHECKSUM: 8c0ffe30430a911552f2b38c1186818763ad920e
+
+COCOAPODS: 1.5.0

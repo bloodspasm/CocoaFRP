@@ -7,29 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BF25FFA2081C66C009CBD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF25FF92081C66C009CBD46 /* AppDelegate.m */; };
-		1BF25FFD2081C66C009CBD46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF25FFC2081C66C009CBD46 /* ViewController.m */; };
-		1BF260002081C66C009CBD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF25FFE2081C66C009CBD46 /* Main.storyboard */; };
-		1BF260022081C66E009CBD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF260012081C66E009CBD46 /* Assets.xcassets */; };
-		1BF260052081C66E009CBD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF260032081C66E009CBD46 /* LaunchScreen.storyboard */; };
-		1BF260082081C66E009CBD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF260072081C66E009CBD46 /* main.m */; };
+		1BF2602220847604009CBD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2602120847604009CBD46 /* AppDelegate.m */; };
+		1BF2602520847604009CBD46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2602420847604009CBD46 /* ViewController.m */; };
+		1BF2602820847604009CBD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF2602620847604009CBD46 /* Main.storyboard */; };
+		1BF2602A20847605009CBD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF2602920847605009CBD46 /* Assets.xcassets */; };
+		1BF2602D20847605009CBD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF2602B20847605009CBD46 /* LaunchScreen.storyboard */; };
+		1BF2603020847605009CBD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2602F20847605009CBD46 /* main.m */; };
+		1BF2603920847611009CBD46 /* SMCreditSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2603720847610009CBD46 /* SMCreditSubject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BF25FF52081C66C009CBD46 /* CocoaFRPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaFRPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BF25FF82081C66C009CBD46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1BF25FF92081C66C009CBD46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1BF25FFB2081C66C009CBD46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1BF25FFC2081C66C009CBD46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1BF25FFF2081C66C009CBD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1BF260012081C66E009CBD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1BF260042081C66E009CBD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1BF260062081C66E009CBD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BF260072081C66E009CBD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BF2601D20847604009CBD46 /* CocoaFRPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaFRPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF2602020847604009CBD46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BF2602120847604009CBD46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BF2602320847604009CBD46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BF2602420847604009CBD46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BF2602720847604009CBD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BF2602920847605009CBD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF2602C20847605009CBD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BF2602E20847605009CBD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF2602F20847605009CBD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BF2603720847610009CBD46 /* SMCreditSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCreditSubject.m; sourceTree = "<group>"; };
+		1BF2603820847610009CBD46 /* SMCreditSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCreditSubject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BF25FF22081C66C009CBD46 /* Frameworks */ = {
+		1BF2601A20847604009CBD46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,48 +42,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BF25FEC2081C66C009CBD46 = {
+		1BF2601420847604009CBD46 = {
 			isa = PBXGroup;
 			children = (
-				1BF25FF72081C66C009CBD46 /* CocoaFRPDemo */,
-				1BF25FF62081C66C009CBD46 /* Products */,
+				1BF2603620847610009CBD46 /* CocoaFRP */,
+				1BF2601F20847604009CBD46 /* CocoaFRPDemo */,
+				1BF2601E20847604009CBD46 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1BF25FF62081C66C009CBD46 /* Products */ = {
+		1BF2601E20847604009CBD46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BF25FF52081C66C009CBD46 /* CocoaFRPDemo.app */,
+				1BF2601D20847604009CBD46 /* CocoaFRPDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BF25FF72081C66C009CBD46 /* CocoaFRPDemo */ = {
+		1BF2601F20847604009CBD46 /* CocoaFRPDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1BF25FF82081C66C009CBD46 /* AppDelegate.h */,
-				1BF25FF92081C66C009CBD46 /* AppDelegate.m */,
-				1BF25FFB2081C66C009CBD46 /* ViewController.h */,
-				1BF25FFC2081C66C009CBD46 /* ViewController.m */,
-				1BF25FFE2081C66C009CBD46 /* Main.storyboard */,
-				1BF260012081C66E009CBD46 /* Assets.xcassets */,
-				1BF260032081C66E009CBD46 /* LaunchScreen.storyboard */,
-				1BF260062081C66E009CBD46 /* Info.plist */,
-				1BF260072081C66E009CBD46 /* main.m */,
+				1BF2602020847604009CBD46 /* AppDelegate.h */,
+				1BF2602120847604009CBD46 /* AppDelegate.m */,
+				1BF2602320847604009CBD46 /* ViewController.h */,
+				1BF2602420847604009CBD46 /* ViewController.m */,
+				1BF2602620847604009CBD46 /* Main.storyboard */,
+				1BF2602920847605009CBD46 /* Assets.xcassets */,
+				1BF2602B20847605009CBD46 /* LaunchScreen.storyboard */,
+				1BF2602E20847605009CBD46 /* Info.plist */,
+				1BF2602F20847605009CBD46 /* main.m */,
 			);
 			path = CocoaFRPDemo;
+			sourceTree = "<group>";
+		};
+		1BF2603620847610009CBD46 /* CocoaFRP */ = {
+			isa = PBXGroup;
+			children = (
+				1BF2603720847610009CBD46 /* SMCreditSubject.m */,
+				1BF2603820847610009CBD46 /* SMCreditSubject.h */,
+			);
+			name = CocoaFRP;
+			path = ../CocoaFRP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BF25FF42081C66C009CBD46 /* CocoaFRPDemo */ = {
+		1BF2601C20847604009CBD46 /* CocoaFRPDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BF2600B2081C66E009CBD46 /* Build configuration list for PBXNativeTarget "CocoaFRPDemo" */;
+			buildConfigurationList = 1BF2603320847605009CBD46 /* Build configuration list for PBXNativeTarget "CocoaFRPDemo" */;
 			buildPhases = (
-				1BF25FF12081C66C009CBD46 /* Sources */,
-				1BF25FF22081C66C009CBD46 /* Frameworks */,
-				1BF25FF32081C66C009CBD46 /* Resources */,
+				1BF2601920847604009CBD46 /* Sources */,
+				1BF2601A20847604009CBD46 /* Frameworks */,
+				1BF2601B20847604009CBD46 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,24 +102,24 @@
 			);
 			name = CocoaFRPDemo;
 			productName = CocoaFRPDemo;
-			productReference = 1BF25FF52081C66C009CBD46 /* CocoaFRPDemo.app */;
+			productReference = 1BF2601D20847604009CBD46 /* CocoaFRPDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1BF25FED2081C66C009CBD46 /* Project object */ = {
+		1BF2601520847604009CBD46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = bloodspasm;
 				TargetAttributes = {
-					1BF25FF42081C66C009CBD46 = {
+					1BF2601C20847604009CBD46 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 1BF25FF02081C66C009CBD46 /* Build configuration list for PBXProject "CocoaFRPDemo" */;
+			buildConfigurationList = 1BF2601820847604009CBD46 /* Build configuration list for PBXProject "CocoaFRPDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +127,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 1BF25FEC2081C66C009CBD46;
-			productRefGroup = 1BF25FF62081C66C009CBD46 /* Products */;
+			mainGroup = 1BF2601420847604009CBD46;
+			productRefGroup = 1BF2601E20847604009CBD46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BF25FF42081C66C009CBD46 /* CocoaFRPDemo */,
+				1BF2601C20847604009CBD46 /* CocoaFRPDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1BF25FF32081C66C009CBD46 /* Resources */ = {
+		1BF2601B20847604009CBD46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF260052081C66E009CBD46 /* LaunchScreen.storyboard in Resources */,
-				1BF260022081C66E009CBD46 /* Assets.xcassets in Resources */,
-				1BF260002081C66C009CBD46 /* Main.storyboard in Resources */,
+				1BF2602D20847605009CBD46 /* LaunchScreen.storyboard in Resources */,
+				1BF2602A20847605009CBD46 /* Assets.xcassets in Resources */,
+				1BF2602820847604009CBD46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BF25FF12081C66C009CBD46 /* Sources */ = {
+		1BF2601920847604009CBD46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF25FFD2081C66C009CBD46 /* ViewController.m in Sources */,
-				1BF260082081C66E009CBD46 /* main.m in Sources */,
-				1BF25FFA2081C66C009CBD46 /* AppDelegate.m in Sources */,
+				1BF2602520847604009CBD46 /* ViewController.m in Sources */,
+				1BF2603020847605009CBD46 /* main.m in Sources */,
+				1BF2602220847604009CBD46 /* AppDelegate.m in Sources */,
+				1BF2603920847611009CBD46 /* SMCreditSubject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BF25FFE2081C66C009CBD46 /* Main.storyboard */ = {
+		1BF2602620847604009CBD46 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BF25FFF2081C66C009CBD46 /* Base */,
+				1BF2602720847604009CBD46 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1BF260032081C66E009CBD46 /* LaunchScreen.storyboard */ = {
+		1BF2602B20847605009CBD46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BF260042081C66E009CBD46 /* Base */,
+				1BF2602C20847605009CBD46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +184,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1BF260092081C66E009CBD46 /* Debug */ = {
+		1BF2603120847605009CBD46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		1BF2600A2081C66E009CBD46 /* Release */ = {
+		1BF2603220847605009CBD46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +294,7 @@
 			};
 			name = Release;
 		};
-		1BF2600C2081C66E009CBD46 /* Debug */ = {
+		1BF2603420847605009CBD46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		1BF2600D2081C66E009CBD46 /* Release */ = {
+		1BF2603520847605009CBD46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -314,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BF25FF02081C66C009CBD46 /* Build configuration list for PBXProject "CocoaFRPDemo" */ = {
+		1BF2601820847604009CBD46 /* Build configuration list for PBXProject "CocoaFRPDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BF260092081C66E009CBD46 /* Debug */,
-				1BF2600A2081C66E009CBD46 /* Release */,
+				1BF2603120847605009CBD46 /* Debug */,
+				1BF2603220847605009CBD46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BF2600B2081C66E009CBD46 /* Build configuration list for PBXNativeTarget "CocoaFRPDemo" */ = {
+		1BF2603320847605009CBD46 /* Build configuration list for PBXNativeTarget "CocoaFRPDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BF2600C2081C66E009CBD46 /* Debug */,
-				1BF2600D2081C66E009CBD46 /* Release */,
+				1BF2603420847605009CBD46 /* Debug */,
+				1BF2603520847605009CBD46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1BF25FED2081C66C009CBD46 /* Project object */;
+	rootObject = 1BF2601520847604009CBD46 /* Project object */;
 }
