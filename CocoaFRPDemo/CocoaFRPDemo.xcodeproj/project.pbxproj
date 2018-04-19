@@ -14,6 +14,7 @@
 		1BF2602D20847605009CBD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF2602B20847605009CBD46 /* LaunchScreen.storyboard */; };
 		1BF2603020847605009CBD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2602F20847605009CBD46 /* main.m */; };
 		1BF2603920847611009CBD46 /* SMCreditSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2603720847610009CBD46 /* SMCreditSubject.m */; };
+		1BF2603D208477A2009CBD46 /* UIView+FRP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2603C208477A2009CBD46 /* UIView+FRP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1BF2602F20847605009CBD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BF2603720847610009CBD46 /* SMCreditSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCreditSubject.m; sourceTree = "<group>"; };
 		1BF2603820847610009CBD46 /* SMCreditSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCreditSubject.h; sourceTree = "<group>"; };
+		1BF2603B208477A2009CBD46 /* UIView+FRP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FRP.h"; sourceTree = "<group>"; };
+		1BF2603C208477A2009CBD46 /* UIView+FRP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FRP.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +81,21 @@
 		1BF2603620847610009CBD46 /* CocoaFRP */ = {
 			isa = PBXGroup;
 			children = (
+				1BF2603A208476DD009CBD46 /* Catagory */,
 				1BF2603720847610009CBD46 /* SMCreditSubject.m */,
 				1BF2603820847610009CBD46 /* SMCreditSubject.h */,
 			);
 			name = CocoaFRP;
 			path = ../CocoaFRP;
+			sourceTree = "<group>";
+		};
+		1BF2603A208476DD009CBD46 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				1BF2603B208477A2009CBD46 /* UIView+FRP.h */,
+				1BF2603C208477A2009CBD46 /* UIView+FRP.m */,
+			);
+			path = Catagory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF2603D208477A2009CBD46 /* UIView+FRP.m in Sources */,
 				1BF2602520847604009CBD46 /* ViewController.m in Sources */,
 				1BF2603020847605009CBD46 /* main.m in Sources */,
 				1BF2602220847604009CBD46 /* AppDelegate.m in Sources */,
